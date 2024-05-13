@@ -1,0 +1,9 @@
+{{ $marker := "img/marker.png" }}
+{{ if .Params.markerstyle }}
+    {{ $marker = (print "img/"  .Params.markerstyle ".png") }}
+{{ end }}
+{{ if isset .Params "noclick"}}
+<img class = "pos {{  .Params.markerstyle }}" style="--x: {{ .Params.xPos }}px; --y: {{ .Params.yPos }}px;"src="{{ $marker | absURL }}"></img>
+{{ else }}
+<img class = "encounter pos {{  .Params.markerstyle }}" style="--x: {{ .Params.xPos }}px; --y: {{ .Params.yPos }}px;" onclick="centerOn(this, {{ .Title }})"  ontouchstart="centerOn(this)" src="{{ $marker | absURL }}"></img>
+{{ end }}

@@ -1,0 +1,39 @@
+{{ define "title" }}
+  {{ .Title }} &ndash; {{ .Site.Title }}
+{{ end }}
+
+{{ define "main" }}
+<header>
+  <a href="{{ "/" | relURL }}" rel="home"><img src="{{ "/img/title.png" | relURL }}" class="title big" alt="Im Land des Leshi"></img></a>
+</header>
+
+<img src="img/leshi2.png" alt="" class="img-right-bottom">
+<div class="landing-list">
+      <a href="/map"><div class = "box" style="background-image:url( {{ "img/map-thumb.png" | relURL }})" ><div class = "detailtext al-right">
+        <img class = "img-left landing-nav" src="{{ "/img/rose.png" | relURL }}">
+        <p class = "text-logo">KARTE</p>
+      </div></div></a>
+      <br><br>
+      <a href="/gronow"><div class = "box" style="background-image:url( {{ "img/gronow-thumb.png" | relURL }})" ><div class = "detailtext al-right">
+        <img class = "img-left landing-nav" src="{{ "/img/wappen.png" | relURL }}">
+        <p class = "text-logo">GRONOW</p>
+      </div></div></a>
+      <br><br>
+      <a href="/characters"><div class = "box" style="background-image:url( {{ "img/char-thumb.png" | relURL }})" ><div class = "detailtext al-right">
+        <img class = "img-left landing-nav" src="{{ "/img/character.png" | relURL }}">
+        <p class = "text-logo">CHARACTERE</p>
+      </div></div></a>
+      <br><br>
+      <a href="/quests"><div class = "box" style="background-image:url( {{ "img/quest-thumb.png" | relURL }})"><div class = "detailtext al-right">
+        <img class = "img-left landing-nav" src="{{ "/img/scroll.png" | relURL }}">
+        <p class = "text-logo">QUESTS</p>
+      </div></div></a>
+      <br><br>
+      <a href="/ressources"><div class = "box" style="background-image:url( {{ "img/ress-thumb.png" | relURL }})"><div class = "detailtext al-right">
+        <img class = "img-left landing-nav" src="{{ "/img/chest.png" | relURL }}">
+        <p class = "text-logo">RESSOURCEN</p>
+      </div></div></a>
+</div>
+
+
+{{ end }}

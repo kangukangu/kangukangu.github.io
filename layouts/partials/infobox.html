@@ -1,0 +1,12 @@
+<div class = "infobox" id="{{ .Title }}"> 
+    <div class = "infotext detailtext">
+        <h2> {{ .Title }}</h2>
+        {{ .Content }}</div>
+    <div class = "flex mt25">
+        <button class="closebutton flex-child" onclick="CloseInfoBox()" ontouchstart="CloseInfoBox()">close</button>
+        {{ if .Params.goto }}
+            <button class="enterbutton flex-child" onclick="venture({{ .Params.goto | absURL }})" ontouchstart="venture({{ .Params.goto | absURL }})">venturer</button></a>
+        {{ end }}
+    </div>
+    
+</div>

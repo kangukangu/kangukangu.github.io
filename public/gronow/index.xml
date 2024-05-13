@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gronow on Interaktive Karte | Im Land des Leshi</title>
+    <link>http://localhost:1313/gronow/</link>
+    <description>Recent content in Gronow on Interaktive Karte | Im Land des Leshi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/gronow/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Das Haus des Magiers</title>
+      <link>http://localhost:1313/gronow/markers/robogerts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/gronow/markers/robogerts/</guid>
+      <description>Robogerts von Rivok&#xA;Dienste Magiewaren&#xA;Verzauberungen</description>
+    </item>
+    <item>
+      <title>Der weiße Elephant</title>
+      <link>http://localhost:1313/gronow/markers/tav_elephant/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/gronow/markers/tav_elephant/</guid>
+      <description>Dienste Taverne&#xA;Gerüchte Werwolf</description>
+    </item>
+    <item>
+      <title>Die Fette Sau</title>
+      <link>http://localhost:1313/gronow/markers/tav_fettesau/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/gronow/markers/tav_fettesau/</guid>
+      <description>Dienste Taverne&#xA;Gerüchte Helden gesucht</description>
+    </item>
+    <item>
+      <title>Grnow Wappen</title>
+      <link>http://localhost:1313/gronow/markers/wappen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/gronow/markers/wappen/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nord-Westtor</title>
+      <link>http://localhost:1313/gronow/markers/gate_nw/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/gronow/markers/gate_nw/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nordtor</title>
+      <link>http://localhost:1313/gronow/markers/gate_ne/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/gronow/markers/gate_ne/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Palast des Gouvaneurs</title>
+      <link>http://localhost:1313/gronow/markers/palace/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/gronow/markers/palace/</guid>
+      <description>Guvaneur Klaudius Schimanski&#xA;Empfang: Elivira Blaschinski&#xA;Funktion Stadtverwaltung</description>
+    </item>
+    <item>
+      <title>Süd-Osttor</title>
+      <link>http://localhost:1313/gronow/markers/gate_se/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/gronow/markers/gate_se/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Südtor</title>
+      <link>http://localhost:1313/gronow/markers/gate_sw/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/gronow/markers/gate_sw/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Test1</title>
+      <link>http://localhost:1313/gronow/test-copy-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/gronow/test-copy-2/</guid>
+      <description>the city of gronow</description>
+    </item>
+    <item>
+      <title>Zum blutigen Leshi</title>
+      <link>http://localhost:1313/gronow/markers/tav_leshi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/gronow/markers/tav_leshi/</guid>
+      <description>Barfrau Roxana&#xA;Dienste Taverne&#xA;Unterkünfte&#xA;Abenteurerinnenguilde</description>
+    </item>
+  </channel>
+</rss>

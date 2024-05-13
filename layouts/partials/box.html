@@ -1,0 +1,19 @@
+<div class = "box" ><div class = "detailtext char" id="char4" >
+  {{ if .Params.avatar }}
+  <img class='detailimg' src="{{ .Params.avatar }}">
+  {{ end }}
+  <h3>
+    {{ if .Params.dndbeyond }}
+    <a href = "{{ .Params.dndbeyond }}" target="_blank"><img src="{{ "/img/anvil.svg" | relURL }}" class="anvil"> </a>
+    {{ end }}
+    {{ .Title }} 
+  </h3>
+  <h5>{{ .Params.Subtitle }}</h5>
+  {{ .Content }}
+  
+  {{ if or (isset .Params "status") (or (isset .Params "status_n") (isset .Params "status_p")) }}
+  <h5>Status: {{ .Params.status }}
+    <span class="red">{{ .Params.status_n }}</span>
+    <span class="green">{{ .Params.status_p }}</span></h5>
+  {{ end }}
+</div></div>

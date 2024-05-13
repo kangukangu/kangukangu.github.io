@@ -1,0 +1,15 @@
+{{ define "title" }}
+  {{ .Site.Title }}
+{{ end }}
+
+{{ define "main" }}
+{{ partial "nav.html" . }}
+<div class = "list">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  {{ range .Pages }}
+    {{ partial "box.html" . }}
+    <br><br>
+  {{ end }}
+</div>
+{{ end }}

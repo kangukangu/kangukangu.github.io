@@ -1,0 +1,23 @@
+{{ define "title" }}
+  {{ .Title }} &ndash; {{ .Site.Title }}
+{{ end }}
+
+{{ define "main" }}
+{{ partial "nav.html" . }}
+<div class="map">
+    <img class = "basemap" src="{{ .Params.map }}"></img>
+    {{ range where .Pages "Type" "marker" }}
+        {{ partial "marker.html" . }}
+    {{ end }}
+</div>
+
+<div class="footer">
+    {{ range where .Pages "Type" "marker" }}
+        {{ partial "infobox.html" . }}
+    {{ end }}
+    <button class="centerbutton" onclick="center()" ontouchstart="center()">CENTER</button>
+</div>
+
+<script src="{{ .Site.BaseURL }}js/dist/panzoom.js"></script>
+<script src="{{ .Site.BaseURL }}js/map.js"></script>
+{{ end }}
