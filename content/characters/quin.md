@@ -1,5 +1,5 @@
 +++
-title = "Quin"
+title = "Quin Mendax"
 subtitle = "Klerikerin (Wissensdomäne), Halb-Elf(Waldelf)"
 dndbeyond= "https://www.dndbeyond.com/characters/122173464"
 avatar= "quin.png"
