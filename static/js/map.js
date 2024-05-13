@@ -3,6 +3,7 @@ let basemap =  document.querySelector('.basemap')
 let centerButton =  document.querySelector('.centerbutton')
 
 let openInfoBoxID = "";
+let permaLink = "";
 
 let mapInstance = panzoom(map, {
     maxzoom: 1,
@@ -16,7 +17,7 @@ let mapInstance = panzoom(map, {
 
  window.onload = function(){
     console.log("loaded");
-    setTimeout(center, 10);
+    setTimeout(checkForParameters, 10);
 }
 
 function center(){
@@ -83,4 +84,34 @@ function ShowCenterButton(){
 
 function venture(path){
     window.open(path,"_self");
+}
+
+function checkForParameters(){
+    var pl = document.getElementsByTagName("permalink");
+    var plfound = false;
+    if(pl && pl.length > 0){
+        permaLink = pl[0].id;
+        plfound = true;
+    }
+
+    var link = window.location.href;
+
+    if(plfound){
+        history.pushState({}, null, permaLink);
+    }
+
+    var partials = link.split('?');
+    if(partials.length < 2){
+        console.log("No parameters.");
+        center();
+        return;
+    }
+    var param = partials[1];
+    var elem = document.getElementById(param + "marker");
+    if(elem){
+        centerOn(elem, param);
+        return;
+    }
+    console.log("No Element with ID " + param + "marker found." );
+        center();
 }
