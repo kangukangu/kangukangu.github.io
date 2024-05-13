@@ -28,7 +28,7 @@ jobs:
           personal_token: ${{ secrets.TOKEN }}
           publish_dir: ./public
           #   keep_files: true
-          user_name: BerlinGameWorkerCooperatives
-          user_email: info@gwc.berlin
+          user_name: kangukangu
+          user_email: kangu@hemio.de
           publish_branch: leshi-public #important!
           cname: leshi.kangu.info
