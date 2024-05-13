@@ -3,6 +3,7 @@
 title = "Quest: Befreit die Burg von Goblins"
 status = "angenommen,"
 status_n = "ungelöst"
+weight = 1
 +++
 **Questgeber:** Guvaneur Klaudius Schimanski  
 **Liaison:** Elivira Blaschinski  

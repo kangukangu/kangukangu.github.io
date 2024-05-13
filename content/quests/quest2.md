@@ -3,6 +3,7 @@
 title = "Quest: Der Werwolf von Gronow"
 status = "angenommen,"
 status_n = "ungelöst"
+weight = 1
 +++
 **Questgeber:** Robogerts von Rivok (Magier)  
   
