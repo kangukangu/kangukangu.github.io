@@ -6,7 +6,7 @@ This repository contains the source for [leshi.kangu.info](https://leshi.kangu.i
 ### How to add a marker to a map
 Simply add a markdown file to `content/map` or `content/gronow`.
 #### Frontmatter
-´´´toml
+```
 +++
 title = <Location name>
 type = "marker"
@@ -15,7 +15,7 @@ yPos = <ycoord>
 markerstyle = [optional]"<markerstyle>"
 goto = [optional]"<gotolink>"
 +++
-´´´
+```
 `<markerstyle>` must be a png that exists in `static/img`. If a class `.<markerstyle>` is added to `asset/style.css` it is used for the element. This is primarily intended in order to use markers of various sizes. If no markerstyle is given the default marker will be used.
 
 `<gotolink>` will cause the "venture" butto to appear at the bottom of the infobox and open the provided link in the current tab.
@@ -34,7 +34,7 @@ Create a link referencing a maplocation by adding `/?<markername>)` to a link to
 Simply add a markdown file to `content/characters` or `content/quests`.
 #### Frontmatter
 **Quest**
-```toml
+```
 +++
 title = <Title>
 status = [optional]"<angenommen/nicht angenommen/...>"
@@ -44,7 +44,7 @@ weight = [optional]<1-9 = aktiv, 10-99 = nicht angenommen, 100+ = gelöst>
 +++
 ```
 **Character**
-```toml
+```
 +++
 title = "<Name>"
 subtitle = "<Klasse, Origin>"
