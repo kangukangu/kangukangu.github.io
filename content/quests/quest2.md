@@ -7,9 +7,9 @@ weight = 1
 +++
 **Questgeber:** Robogerts von Rivok (Magier)  
   
-##### Belohnung
+### Belohnung
 200g (verhandelt von 100g) für Werwolfspelz  
 Alternativ: geringere Belohnung für Beweis von Nichtexistenz    
-##### Informationen
-Gerüchte bekannt aus dem 'Weißen Elefanten'  
+### Informationen
+Gerüchte bekannt aus dem [Weißen Elefanten](/gronow/?tav_elephant)  
 Große Kreatur bei Nachtwache Vincent gesichtet

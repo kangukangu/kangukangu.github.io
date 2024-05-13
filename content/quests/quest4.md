@@ -10,5 +10,5 @@ Wer wagt es den Schatz zu bergen?
   
 (ohne Unterschrift)  
   
-##### Quelle
+### Quelle
 Jarekts Hosentasche
