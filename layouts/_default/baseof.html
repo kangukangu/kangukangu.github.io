@@ -30,6 +30,7 @@
 </head>
   <body class="bd-{{ .Title }}">
     {{ block "main" . }}{{ end }}
+    <permalink id="{{ .Permalink }}"></permalink>
 </body>
 </html>
 
