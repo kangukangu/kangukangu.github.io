@@ -259,10 +259,10 @@ nav {
     margin-right: 10px;
   }  
 
-  .bd-Characters,.bd-Quests, .bd-Landing {
+  .bd-Charactere,.bd-Quests, .bd-Landing {
     position: absolute;
   }
-  .html-Characters, .html-Quests, .html-Landing{
+  .html-Charactere, .html-Quests, .html-Landing{
     position: absolute;
   }
 
