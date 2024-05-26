@@ -311,3 +311,7 @@ nav {
     width: 375px;
     transform: translate(-50%, 0%);
   }
+
+  .dead{
+    filter: grayscale(100%);
+  }
