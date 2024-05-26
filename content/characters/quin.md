@@ -3,6 +3,7 @@ title = "Quin Mendax"
 subtitle = "Klerikerin (Wissensdomäne), Halb-Elf(Waldelf)"
 dndbeyond= "https://www.dndbeyond.com/characters/122173464"
 avatar= "quin.png"
+weight = 1
 +++
 
 Quin Mendax macht in den belebten Straßen von Gronow eine unverwechselbare Figur. Hochgewachsen und getrieben, erregt Quins Präsenz trotz des unauffälligen Auftretens Aufmerksamkeit. Der kahl geschorene, längliche Kopf betont die dichten, angewinkelten Augenbrauen, die sich elegant über die stechend türkisen Augen wölben. Die spitzen Ohren umrahmen das wissbegierige Gesicht und lassen das elfische Erbe erahnen.

@@ -3,6 +3,7 @@ title = "Hyronimus Drüsenbrusch"
 subtitle = "Warlock, Halb-Elf (Drow)"
 dndbeyond= "https://www.dndbeyond.com/characters/122535506"
 avatar= "hyronimus.png"
+weight = 1
 +++
 
 Ja, DER Drüsenbrusch - Jüngster Vizedirektor des königlichen Archivs und Teilhaber der rasant wachsenden Buch- und Zauberhandlungskette  Velox scientia, sehr erfreut.

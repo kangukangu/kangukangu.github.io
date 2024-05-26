@@ -1,6 +1,6 @@
 <div class = "box" ><div class = "detailtext char" id="char4" >
   {{ if .Params.avatar }}
-  <img class='detailimg' src="{{ .Params.avatar }}">
+  <img class='detailimg {{ .Params.state }}' src="{{ .Params.avatar }}">
   {{ end }}
   <h3>
     {{ if .Params.dndbeyond }}
@@ -11,9 +11,9 @@
   <h5>{{ .Params.Subtitle }}</h5>
   {{ .Content }}
   
-  {{ if or (isset .Params "status") (or (isset .Params "status_n") (isset .Params "status_p")) }}
+  {{ if or (isset .Params "status") (or (isset .Params "status_n") (or (isset .Params "status_p") (isset .Params "state"))) }}
   <h5>Status: {{ .Params.status }}
-    <span class="red">{{ .Params.status_n }}</span>
+    <span class="red">{{ .Params.status_n }}{{ .Params.state }}</span>
     <span class="green">{{ .Params.status_p }}</span></h5>
   {{ end }}
 </div></div>
