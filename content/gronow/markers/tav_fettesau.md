@@ -6,6 +6,4 @@ yPos = 3434
 +++
 #### Dienste
 Taverne  
-  
-#### Gerüchte  
-Helden gesucht
+

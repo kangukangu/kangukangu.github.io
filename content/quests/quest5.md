@@ -1,7 +1,7 @@
 
 +++
 title = "Der Ring des Meisters"
-status_p = "angenommen"
+status_p = "gelöst"
 weight = 100
 +++
 **Questgeber:** Igor

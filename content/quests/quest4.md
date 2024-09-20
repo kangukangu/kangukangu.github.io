@@ -1,8 +1,8 @@
 
 +++
 title = "Hinweis: Tip für Wagemutige Abenteurerinnen!"
-status = "nicht angenommen"
-weight = 10
+status_n = "abgegeben"
+weight = 110
 +++
 Gerüchten zufolge verbirgt sich in der verfallenen Mienen im Westen mehr als Spinnenweben und Geröll. Unbekannte Stimmen raunen von einem Mithrilschatz der darauf warten von mutigen Seelen entdeckt zu werden.  
   

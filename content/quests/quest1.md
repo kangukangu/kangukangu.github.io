@@ -1,9 +1,8 @@
 
 +++
 title = "Quest: Befreit die Burg von Goblins"
-status = "angenommen,"
-status_n = "ungelöst"
-weight = 1
+status_p = "gelöst"
+weight = 100
 +++
 **Questgeber:** Guvaneur Klaudius Schimanski  
 **Liaison:** Elivira Blaschinski  
@@ -19,3 +18,7 @@ Bonus für Kopf des Anführers
 ca. 20 Goblins und ein Anführer  
 Burg etwa eine Tagesreise südlich von Gronow  
 Burg erbaut vom Orden der Eleviten, verlassen seit der Schlacht von Golgotha  
+
+## Resultat
+Im zweiten Anlauf konnte die Gruppe die Burg von allen Goblins befreien.
+Beim Anführer wurde eine Broche der Familie Basczar sicherstellen.

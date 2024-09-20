@@ -6,3 +6,5 @@ yPos = 2194
 goto = "/map"
 +++
 
+#### Richtung
+Magierturm

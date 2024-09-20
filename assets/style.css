@@ -102,6 +102,20 @@ body, html {
 width: 200px;
 height: 200px;
 }
+.tower{
+  width: 154px;
+  height: 154px;
+}
+
+.mill{
+  width: 114px;
+  height: 154px;
+}
+
+.cloister{
+  width: 154px;
+  height: 154px;
+}
 
 .wappen{
   width: 750px;

@@ -17,17 +17,12 @@ Verlassen seit der Schlacht von Golgatha.
 Verlassen, leicht verfallen.  
 Behaust von einer Horde Goblins.
 
-### Kampfbericht
-Toova, Björn Starkbart, Lung und Quin klettern unbemerkt von aussen auf die Burgmauern und attackieren die Goblins im Innenhof. Der Kampf verlagert sich ins innere der Burg.
+### 1. Angriff
+Beim ersten Angriff auf die Burg versterben Toova, Björn und Lung.
+Quin entkommt gemeinsam mit 5 gefangenen Händler\*innen.
 
-**Gegner:** bis zu 20 goblins und 1 Warg
 
-#### Verluste
-Toova, Björn und Lung starben beim Angriff auf die Burg.
-
-#### Loot
-1x Burgschlüssel  
-Waffen von Toova Björn und Lung
-
-#### Gerettet
-Quin konnte die 5 gefangenen Menschen befreien und mit ihnen fliehen.
+### 2. Angriff
+Die Gruppe besiegt die verbleibenden Gobilins und Warge.
+Mezara tötet 20 Goblinbabies.
+Am Anführer der Goblins findet sich eine Broche der Basczar Familie.
