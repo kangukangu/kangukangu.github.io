@@ -4,10 +4,10 @@ type = "marker"
 xPos = 3370
 yPos = 560
 markerstyle = "cloister"
-+++
-Oberin Schwester Lyriel
-Schwester Morwena
-Schwester Doran
++++ 
+Oberin Schwester Lyriel  
+Schwester Morwena  
+Schwester Doran  
 
 ### Lage
-2 Tagesreisen Östlich der Stadt
+2 Tagesreisen Östlich der Stadt im Temni Wald.
